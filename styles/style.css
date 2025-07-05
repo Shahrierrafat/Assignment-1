@@ -1,0 +1,69 @@
+/* Google font link:Azeret Mono */
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+.azeret-normal {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* Navbar */
+nav {
+    margin: 40px 110px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.download-resume-btn {
+    width: 244px;
+    height: 57px;
+    gap: 10px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    opacity: 0.8;
+
+}
+
+/* Become a developer page */
+.developer-first-container {
+    background-image: url(../images/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 652px;
+    padding: 30px 0;
+}
+
+.developer-first-section {
+    align-items: center;
+    text-align: center;
+}
+
+.developer-headline-text {
+    font-size: 38px;
+    font-weight: 800;
+}
+
+.developer-first-intro {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(13, 19, 33);
+}
+
+.contact-me-btn {
+    width: 233px;
+    height: 55px;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    color: rgb(255, 255, 255);
+    border-style: none;
+    font-size: 20px;
+    font-weight: 600;
+    word-spacing: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+/* Why Web Development?? section */
+.why-web-dev-container{
+display: flex;
+}
