@@ -165,10 +165,11 @@ button:hover {
 }
 
 /* youtube video */
-.yotube-video-link{
+.yotube-video-link {
     border-radius: 16px;
     margin-top: 25px;
 }
+
 .video-youtube-border {
     margin: 48px 0px;
     box-sizing: border-box;
@@ -178,4 +179,79 @@ button:hover {
     height: 600px;
     gap: 10;
 
+}
+/* Current Target section */
+.target-header {
+    text-align: center;
+    width: 852px;
+    height: 113px;
+    gap: 24;
+    margin: auto;
+}
+
+.target-box-three {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 1140px;
+    height: 250px;
+    margin:90px auto;
+    gap: 24;
+    
+
+}
+
+.html-box {
+    width: 370px;
+    height: 250px;
+    background-color: rgba(255, 76, 30, 0.05);
+    margin-left: 24px;
+    padding: 40px;
+}
+
+.css-box {
+    width: 370px;
+    height: 250px;
+    background-color: rgba(0, 76, 232, 0.05);
+    margin-left: 24px;
+    padding: 40px;
+}
+
+.javascript-box {
+    width: 370px;
+    height: 250px;
+    background-color: rgba(255, 223, 0, 0.05);
+    margin-left: 24px;
+    padding: 40px;
+}
+
+.header-of-target {
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 37px;
+}
+
+.text-of-target {
+    color: rgb(13, 19, 33);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 26px;
+}
+.target-box-details{
+    font-size: 12px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: left;
+color: rgb(13, 19, 33);
+}
+.target-links{
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
+border: none;
+color: rgb(13, 19, 33);
 }
