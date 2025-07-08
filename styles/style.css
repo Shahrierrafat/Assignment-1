@@ -24,7 +24,10 @@ nav {
     opacity: 0.8;
 
 }
-
+/* share items :opacity*/
+.opecity-of-text{
+    opacity: 0.7;
+}
 /* Become a developer page */
 .developer-first-container {
     background-image: url(../images/Hero-bg.png);
@@ -48,6 +51,7 @@ nav {
     font-size: 14px;
     font-weight: 400;
     color: rgb(13, 19, 33);
+    opacity: 0.7;
 }
 
 .contact-me-btn {
@@ -82,7 +86,13 @@ nav {
     flex-direction: column;
     margin: 0 auto;
 }
-
+.header-description{
+    opacity: 0.7;
+    font-size: 14px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+}
 .container-box-1 {
     width: 850px;
     height: auto;
@@ -180,6 +190,7 @@ button:hover {
     gap: 10;
 
 }
+
 /* Current Target section */
 .target-header {
     text-align: center;
@@ -195,9 +206,9 @@ button:hover {
     justify-content: space-evenly;
     width: 1140px;
     height: 250px;
-    margin:90px auto;
+    margin: 90px auto;
     gap: 24;
-    
+
 
 }
 
@@ -237,21 +248,49 @@ button:hover {
     font-weight: 300;
     line-height: 26px;
 }
-.target-box-details{
+
+.target-box-details {
     font-size: 12px;
-font-weight: 400;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    color: rgb(13, 19, 33);
+}
+
+.target-links {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+    border: none;
+    color: rgb(13, 19, 33);
+}
+
+/* Support section page */
+.need-support-box {
+    justify-content: center;
+    width: 1140px;
+    height: 313px;
+    border-radius: 16px;
+    box-sizing: border-box;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) , url("../images/handshake.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin:auto;
+    text-align: center;
+    padding-top: 10px;
+    color: rgb(255, 255, 255);
+}
+.Support-texts{
+color: rgb(255, 255, 255);
+font-size: 12px;
+font-weight: 200;
 line-height: 20px;
 letter-spacing: 0%;
-text-align: left;
-color: rgb(13, 19, 33);
-}
-.target-links{
-font-size: 16px;
-font-weight: 700;
-line-height: 19px;
-letter-spacing: 0%;
-text-align: left;
-text-decoration-line: underline;
-border: none;
-color: rgb(13, 19, 33);
+opacity: 0.7;
+text-align: center;
 }
